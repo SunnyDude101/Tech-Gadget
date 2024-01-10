@@ -1,0 +1,160 @@
+body {
+    font-family: 'Shadows Into Light', cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://w0.peakpx.com/wallpaper/397/619/HD-wallpaper-design-space-dark-green-wooden-textured-background-by-paeng-dark-green-green-texture-background-dark-green-aesthetic.jpg);
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #344e41ff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: "Rubik Doodle Shadow";
+}
+
+.left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+nav {
+    background-color: clear;
+    padding: 20px;
+    text-align: center;
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.tabHeader {
+    overflow: hidden;
+    background-color: #344e41ff;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Roboto Serif', serif;
+}
+
+/* Style the topnav links */
+.tabHeader a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.tabHeader a:hover {
+    background-color: #a3b18aff;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #a3b18aff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+hr {
+    padding: 5px;
+    color: #a3b18aff;
+}
+
+#chatbox {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #a3b18aff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#messages {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 5px solid #588157ff;
+    border-radius: 5px;
+}
+
+#input-container {
+    display: flex;
+}
+
+#messageInput {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#sendButton {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #588157ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
